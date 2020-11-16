@@ -3,6 +3,7 @@ import safe from "../img/shield.png";
 import home from "../img/house.png";
 import docu from "../img/dossier.png";
 import FAQ from "./gstfaq";
+import Newsletter from "./newsletter";
 import {Helmet} from "react-helmet";
 
 const GST = (props) => {
@@ -166,6 +167,7 @@ const GST = (props) => {
           </div>
         </section>
         <FAQ/>
+        <Newsletter/>
       </div>
   </React.Fragment>
  

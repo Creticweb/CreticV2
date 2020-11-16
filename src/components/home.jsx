@@ -4,6 +4,7 @@ import Service from './service';
 import Register from './register';
 //import Count from './counter';
 import High from './high';
+import Newsletter from "./newsletter";
 const Home = (props) => {
 
   return (
@@ -13,6 +14,7 @@ const Home = (props) => {
      <Service/>
      <Register/>
       <High/>
+     <Newsletter/>
    </div>
   </React.Fragment>
  
