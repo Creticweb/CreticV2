@@ -21,6 +21,7 @@ import GST from "./components/gst";
 import MSME from "./components/msme";
 import CONTACT from "./components/contact";
 import FSSAI from "./components/fssai";
+import Privacy from "./components/policy";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
@@ -56,6 +57,7 @@ function App() {
               <Route path="/msme" component={MSME} />
               <Route path="/contact" component={CONTACT} />
               <Route path="/fssai" component={FSSAI} />
+              <Route path="/privacy" component={Privacy} />
               <Route path="/not-found" component={NotFound} />
               <Redirect to="/not-found" />
             </Switch>
