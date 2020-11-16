@@ -9,6 +9,7 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 import ReactGa from "react-ga";
 import Navbar from "./components/navbar";
+import Whatsapp from "./components/whatsapp";
 import Footer from "./components/footer";
 //import Register from "./components/register";
 
@@ -19,14 +20,15 @@ import NotFound from "./components/not-found";
 import GST from "./components/gst";
 import MSME from "./components/msme";
 import CONTACT from "./components/contact";
+import FSSAI from "./components/fssai";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
   "@type": "NGO",
   name:
-    "Track the spread of Coronavirus (COVID-19) in India (district level to state level) and World",
-  alternateName: "COVID INDIA STATISTICS",
-  url: "https://pandemic2020.in/",
+    "We offers a suite of online services like company registration, trademark filing, income tax filing, GST registration, GST return filing",
+  alternateName: "Cretic Solutions offers a suite of online services",
+  url: "https://creticweb.tech/",
 };
 
 function App() {
@@ -46,13 +48,14 @@ function App() {
       </Helmet>
       <Router history={history}>
        <Navbar />
-        
+        <Whatsapp/>
           <main>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/gst-registration" component={GST} />
               <Route path="/msme" component={MSME} />
               <Route path="/contact" component={CONTACT} />
+              <Route path="/fssai" component={FSSAI} />
               <Route path="/not-found" component={NotFound} />
               <Redirect to="/not-found" />
             </Switch>
