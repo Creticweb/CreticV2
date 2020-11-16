@@ -52,7 +52,7 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route path="/gst-registration" component={GST} />
               <Route path="/msme" component={MSME} />
-              <Route path="/contact-us" component={CONTACT} />
+              <Route path="/contact" component={CONTACT} />
               <Route path="/not-found" component={NotFound} />
               <Redirect to="/not-found" />
             </Switch>

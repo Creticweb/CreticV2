@@ -17,7 +17,7 @@ const Footer = (props) => {
               <div className="col-lg-7 col-md-6 col-sm-12 mb-md-0">
                 {/* WIDGET INFO */}
                 <div className="widget w-info widget--footer mb-4">
-                  <h4 className="widget-title">Cretic Solutions!</h4>
+                  <h4 className="widget-title">Cretic Solutions</h4>
                   <p className="widget-text">Cretic Solutions & Cretic Web Solutions is a part of SRV Impex International<br/>
                   GSTIN: 19DWNPD3571B1ZK
                   </p>
