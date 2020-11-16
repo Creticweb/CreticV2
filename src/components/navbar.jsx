@@ -22,13 +22,13 @@ const Menu = (props) => {
                   </div>
                 </div>
                 <div className="top-bar-item">
-                  8 800 567.890.11
+                  +91 964 754 00 52
                 </div>
                 <div className="top-bar-item">
-                  <a href="#">info@topten.com</a>
+                  <a href="mailto: creticweb@gmail.com">creticweb@gmail.com</a>
                 </div>
                 <div className="top-bar-item">
-                  <span>Mon. - Fri.</span> 10:00 - 21:00
+                  <span>Mon. - Sat.</span> 10:00 - 21:00
                 </div>
                 <div className="top-bar-item follow_us">
                   <span>Follow us:</span>
@@ -48,7 +48,7 @@ const Menu = (props) => {
                   <svg className="crumina-icon" width={20} height={16}>
                     <use xlinkHref="#icon-users" />
                   </svg>
-                  <a className="js-window-popup" href="#">SIGN UP</a>
+                  <a className="js-window-popup" href="https://support.creticweb.tech">SIGN UP</a>
                 </div>
               </div>
               <a href="#" className="top-bar-close" id="top-bar-close-js">
@@ -99,7 +99,7 @@ const Menu = (props) => {
                 {/* MAIN HEADER LOGO */}
                 <div className="navigation-logo">
                   {/* MAIN HEADER LOGO LINK */}
-                  <a className="site-logo" href="index-2.html">
+                  <a className="site-logo" href="/">
                     {/* MAIN HEADER RESPONSIVE LOGO IMAGE*/}
                     <img loading="lazy" src="img/demo-content/logo/logo-dark.svg" alt="logo" width={70} />
                     {/* /MAIN HEADER RESPONSIVE LOGO IMAGE*/}
