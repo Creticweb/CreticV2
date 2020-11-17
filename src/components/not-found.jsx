@@ -1,11 +1,14 @@
 import React from 'react';
 import notf from '../img/theme-content/icons/23-error.svg';
+import {Helmet} from "react-helmet";
 
 const notfound = (props) => {
 
   return (
   <div class="main-content-wrapper">
-
+  <Helmet>
+     <title>404 Page Not Found | Cretic Solutions</title>
+    </Helmet>
 	<section class="large-padding bg-grey-theme">
 		<div class="container">
 			<div class="row">
