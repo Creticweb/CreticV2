@@ -161,6 +161,64 @@ export default function Contact() {
             </div>
           </div>
         </section>
+      <div>
+        <section className="large-padding">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <header className="crumina-module crumina-heading">
+                  <div className="title-text-wrap">
+                    {/* CRUMINA HEADING TITLE */}
+                    <h2 className="heading-title">Get In Touch</h2>
+                    {/* /CRUMINA HEADING TITLE */}
+                  </div>
+                  {/* CRUMINA HEADING DECORATION */}
+                  <div className="heading-decoration" />
+                  {/* /CRUMINA HEADING DECORATION  */}
+                  {/* CRUMINA HEADING TEXT */}
+                  <div className="heading-text"><span>COVID-19 Note : </span>Please expect delays from government side in case of any registration.</div>
+                  {/* /CRUMINA HEADING TEXT */}
+                </header>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className="medium-padding section-image-bg-dark">
+          <div className="container">
+            {/* CONTACTS */}
+            <div className="contacts">
+              {/* CONTACTS ITEM */}
+              <div className="contacts-item">
+                <img loading="lazy" className="crumina-icon" src="img/demo-content/icons/icon4.svg" alt="phone" />
+                <div className="content">
+                  <div className="title c-white">8 800 567.890.11</div>
+                  <p className="sub-title c-white">Mon-Sat 9am-8pm</p>
+                </div>
+              </div>
+              {/* /CONTACTS ITEM */}
+              {/* CONTACTS ITEM */}
+              <div className="contacts-item">
+                <img loading="lazy" className="crumina-icon" src="img/demo-content/icons/icon5.svg" alt="mail" />
+                <div className="content">
+                  <a href="mailto: creticweb@gmail.com" className="title c-white">creticweb@gmail.com</a>
+                  <p className="sub-title c-white">online support</p>
+                </div>
+              </div>
+              {/* /CONTACTS ITEM */}
+              {/* CONTACTS ITEM */}
+              <div className="contacts-item">
+                <img loading="lazy" className="crumina-icon" src="img/demo-content/icons/icon6.svg" alt="location" />
+                <div className="content">
+                  <div className="title c-white">SN Dey Road , Habra</div>
+                  <p className="sub-title c-white">West Bengal , India 743263</p>
+                </div>
+              </div>
+              {/* /CONTACTS ITEM */}
+            </div>
+            {/* /CONTACTS */}
+          </div>
+        </div>
+      </div>
       </div>
     );
 }
