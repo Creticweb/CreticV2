@@ -191,7 +191,7 @@ export default function Contact() {
               <div className="contacts-item">
                 <img loading="lazy" className="crumina-icon" src="img/demo-content/icons/icon4.svg" alt="phone" />
                 <div className="content">
-                  <div className="title c-white">8 800 567.890.11</div>
+                  <div className="title c-white">+91 9647540052</div>
                   <p className="sub-title c-white">Mon-Sat 9am-8pm</p>
                 </div>
               </div>
