@@ -10,14 +10,14 @@ const Menu = (props) => {
               <div className="top-bar-content">
                 <div className="top-bar-item">
                   <div className="dropdown crumina-language-switcher">
-                    <a className="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="btn dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <img loading="lazy" src="img/theme-content/languages/english.png" alt="English" />English
                     </a>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a className="dropdown-item" href="#"><img loading="lazy" src="img/theme-content/languages/french.png" alt="French" />French</a>
-                      <a className="dropdown-item" href="#"><img loading="lazy" src="img/theme-content/languages/german.png" alt="German" />German</a>
-                      <a className="dropdown-item" href="#"><img loading="lazy" src="img/theme-content/languages/ukrainian.png" alt="Ukrainian" />Ukrainian</a>
-                      <a className="dropdown-item" href="#"><img loading="lazy" src="img/theme-content/languages/english.png" alt="English" />English</a>
+                      <a className="dropdown-item" href=""><img loading="lazy" src="img/theme-content/languages/french.png" alt="French" />French</a>
+                      <a className="dropdown-item" href=""><img loading="lazy" src="img/theme-content/languages/german.png" alt="German" />German</a>
+                      <a className="dropdown-item" href=""><img loading="lazy" src="img/theme-content/languages/ukrainian.png" alt="Ukrainian" />Ukrainian</a>
+                      <a className="dropdown-item" href=""><img loading="lazy" src="img/theme-content/languages/english.png" alt="English" />English</a>
                     </div>
                   </div>
                 </div>
@@ -33,25 +33,25 @@ const Menu = (props) => {
                 <div className="top-bar-item follow_us">
                   <span>Follow us:</span>
                   <div className="socials">
-                    <a className="social-item" href="#">
+                    <a className="social-item" href="">
                       <img loading="lazy" width={16} height={16} className="crumina-icon" src="img/theme-content/social-icons/facebook.svg" alt="facebook" />
                     </a>
-                    <a className="social-item" href="#">
+                    <a className="social-item" href="">
                       <img loading="lazy" width={16} height={16} className="crumina-icon" src="img/theme-content/social-icons/twitter.svg" alt="twitter" />
                     </a>
-                    <a className="social-item" href="#">
+                    <a className="social-item" href="">
                       <img loading="lazy" width={16} height={16} className="crumina-icon" src="img/theme-content/social-icons/google.svg" alt="google" />
                     </a>
                   </div>
                 </div>
                 <div className="top-bar-item login-block">
                   <svg className="crumina-icon" width={20} height={16}>
-                    <use xlinkHref="#icon-users" />
+                    <use xlinkHref="icon-users" />
                   </svg>
                   <a className="js-window-popup" href="https://support.creticweb.tech">SIGN UP</a>
                 </div>
               </div>
-              <a href="#" className="top-bar-close" id="top-bar-close-js">
+              <a href="" className="top-bar-close" id="top-bar-close-js">
                 <span />
                 <span />
               </a>
@@ -79,7 +79,7 @@ const Menu = (props) => {
               {/* TOP BAR RESPONSIVE BUTTON-OPEN */}
               <div id="top-bar-js" className="top-bar-link">
                 <svg className="crumina-icon" width={20} height={16}>
-                  <use xlinkHref="#icon-users" />
+                  <use xlinkHref="icon-users" />
                 </svg>
               </div>
               {/* /TOP BAR RESPONSIVE BUTTON-OPEN */}
@@ -128,7 +128,7 @@ const Menu = (props) => {
                 {/* MAIN HEADER MENU ITEM */}
                 <li className="navigation-item">
                   {/* MAIN HEADER MENU ITEM LINK */}
-                  <a className="navigation-link" href="#">Services</a>
+                  <a className="navigation-link" href="">Services</a>
                   {/* /MAIN HEADER MENU ITEM LINK */}
                   {/* MAIN HEADER MENU DROPDOWN */}
                   <ul className="navigation-dropdown">
@@ -147,7 +147,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/gst-registration">
                         <svg className="crumina-icon" width={30} height={30}>
-                          <use xlinkHref="#icon-local-seo" />
+                          <use xlinkHref="icon-local-seo" />
                         </svg>
                         GST Registration</a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -158,7 +158,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/gst-filing">
                         <svg className="crumina-icon" width={30} height={30}>
-                          <use xlinkHref="#icon-email" />
+                          <use xlinkHref="icon-email" />
                         </svg>
                         GST Filling</a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -169,7 +169,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/msme">
                         <svg className="crumina-icon" width={30} height={30}>
-                          <use xlinkHref="#icon-social-media" />
+                          <use xlinkHref="icon-social-media" />
                         </svg>
                         MSME Registration</a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -180,7 +180,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/fssai">
                         <svg className="crumina-icon" width={30} height={30}>
-                          <use xlinkHref="#icon-search-engine" />
+                          <use xlinkHref="icon-search-engine" />
                         </svg>
                         FSSAI Registration</a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -191,7 +191,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/ptax">
                         <svg className="crumina-icon" width={30} height={30}>
-                          <use xlinkHref="#icon-pay-click" />
+                          <use xlinkHref="icon-pay-click" />
                         </svg>
                         Professional Tax</a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -202,7 +202,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/trade-license">
                         <svg className="crumina-icon" width={30} height={30}>
-                          <use xlinkHref="#icon-services" />
+                          <use xlinkHref="icon-services" />
                         </svg>
                         Trade License</a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -215,7 +215,7 @@ const Menu = (props) => {
                 {/* MAIN HEADER MENU ITEM */}
                 <li className="navigation-item">
                   {/* MAIN HEADER MENU ITEM LINK */}
-                  <a className="navigation-link" href="#">Labour Compliance</a>
+                  <a className="navigation-link" href="">Labour Compliance</a>
                   {/* /MAIN HEADER MENU ITEM LINK */}
                   {/* MAIN HEADER MENU DROPDOWN */}
                   <ul className="navigation-dropdown">
@@ -224,7 +224,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/she">Shops and Establishments License
                         <svg className="crumina-icon arrow-right" width={12} height={10}>
-                          <use xlinkHref="#icon-arrow-right" />
+                          <use xlinkHref="icon-arrow-right" />
                         </svg>
                       </a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -235,7 +235,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/esop">Employee Stock Option Plan [ESOP]
                         <svg className="crumina-icon arrow-right" width={12} height={10}>
-                          <use xlinkHref="#icon-arrow-right" />
+                          <use xlinkHref="icon-arrow-right" />
                         </svg>
                       </a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -246,7 +246,7 @@ const Menu = (props) => {
                       {/* MAIN HEADER MENU DROPDOWN ITEM LINK */}
                       <a className="navigation-dropdown-link" href="/esi">ESI Registration
                         <svg className="crumina-icon arrow-right" width={12} height={10}>
-                          <use xlinkHref="#icon-arrow-right" />
+                          <use xlinkHref="icon-arrow-right" />
                         </svg>
                       </a>
                       {/* /MAIN HEADER MENU DROPDOWN ITEM LINK */}
@@ -271,7 +271,7 @@ const Menu = (props) => {
           </div>
           {/* /MAIN HEADER CONTAINER */}
           <div className="user-menu">
-            <a href="#" className="user-menu-content" data-toggle="modal" data-target="#right-menu">
+            <a href="" className="user-menu-content" data-toggle="modal" data-target="right-menu">
               <span />
               <span />
               <span />
@@ -318,7 +318,7 @@ const Menu = (props) => {
                             <input type="checkbox" />
                             <span className="control__indicator" />
                           </label>
-                          <a href="#">Lost your password?</a>
+                          <a href="">Lost your password?</a>
                         </div>
                       </div>
                       <div className="form-item">
@@ -332,7 +332,7 @@ const Menu = (props) => {
                     <div className="contact-item">
                       <img loading="lazy" className="crumina-icon" src="img/demo-content/icons/icon1.png" alt="phone" />
                       <div className="content">
-                        <a href="#" className="title">+91 9647540052</a>
+                        <a href="" className="title">+91 9647540052</a>
                         <p className="sub-title">Mon-Fri 9am-6pm</p>
                       </div>
                     </div>
@@ -346,7 +346,7 @@ const Menu = (props) => {
                     <div className="contact-item">
                       <img loading="lazy" className="crumina-icon" src="img/demo-content/icons/icon3.png" alt="location" />
                       <div className="content">
-                        <a href="#" className="title">SN DEY RD, HABRA</a>
+                        <a href="" className="title">SN DEY RD, HABRA</a>
                         <p className="sub-title">WEST BENGAL INDIA 743263</p>
                       </div>
                     </div>
