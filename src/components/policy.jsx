@@ -38,7 +38,7 @@ const Privacy = () => {
           <div class="">
             <h2>PRIVACY POLICY</h2>
             </div>
-            <p class="lead text-left">This Privacy Policy governs the manner in which IndiaFilings.com collects, uses, maintains and discloses information collected from users (each, a "User") of the http://www.creticweb.tech website ("Site"). This privacy policy applies to the Site and all products and services offered by India Filings.</p>
+            <p class="lead text-left">This Privacy Policy governs the manner in which IndiaFilings.com collects, uses, maintains and discloses information collected from users (each, a "User") of the https://cretic.co.in website ("Site"). This privacy policy applies to the Site and all products and services offered by India Filings.</p>
             <h2 class="title-bg bg-orange color-orange text-center">PERSONAL IDENTIFICATION INFORMATION</h2>
             <p class="lead text-left">We may collect personal identification information from Users in a variety of ways, including, but not limited to, when Users visit our site, register on the site, place an order, and in connection with other activities, services, features or resources we make available on our Site. Users may be asked for, as appropriate, name, email address, mailing address, phone number. Users may, however, visit our Site anonymously. We will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personally identification information, except that it may prevent them from engaging in certain Site related activities.</p>
             <h2 class="title-bg bg-orange color-orange text-center"> 
@@ -80,7 +80,8 @@ const Privacy = () => {
              </h2>
             <p class="lead text-left">
             We may use third party service providers to help us operate our business and the Site or administer activities on our behalf, such as sending out newsletters or surveys. We may share your information with these third parties for those limited purposes provided that you have given us your permission.
-            </p>
+            </p><br/>
+            <p class="lastupdate">Last Update : <br/>18 Nov 2020</p>
         </div>
       </div>
     </div>
