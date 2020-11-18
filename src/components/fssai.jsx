@@ -64,7 +64,7 @@ const FSSAI = (props) => {
                 <tr>
                   <td>FSSAI FoSCos Basic License</td>
                   <td>Annual turnover of the business is less than 12 lakhs</td>
-                  <td>Rs. 1099/-
+                  <td>Rs. 1399/-
                   Including Govt. Fee
                   Excluding
                   GST(for the 1st year only) No Hidden Charge</td>
@@ -74,7 +74,7 @@ const FSSAI = (props) => {
                 <tr>
                   <td>FSSAI FoSCos State License</td>
                   <td>Annual turnover of the business is between 12 lakhs to 20 crores</td>
-                  <td>Rs. 2099/-
+                  <td>Rs. 2399/-
                   Excluding Govt. Fee Excluding GST
                   One Time No Hidden Charge</td>
                   <td>1 To 5 Years</td>
@@ -82,7 +82,7 @@ const FSSAI = (props) => {
                 <tr>
                   <td>FSSAI FoSCos Central License</td>
                   <td>Annual turnover of the business is above 20 crores</td>
-                  <td>Rs. 3999/- Excluding Govt. Fee Excluding GST One Time No Hidden Charge</td>
+                  <td>Rs. 3399/- Excluding Govt. Fee Excluding GST One Time No Hidden Charge</td>
                   <td>1 To 5 Years</td>
                 </tr>
              
