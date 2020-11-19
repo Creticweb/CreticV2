@@ -1,7 +1,7 @@
 import React from 'react';
-//import safe from "../img/shield.png";import docu from "../img/dossier.png";
-//import docu from "../img/dossier.png";
-//import docu from "../img/dossier.png";
+import safe from "../img/shield.png";
+import home from "../img/house.png";
+import docu from "../img/dossier.png";
 import Newsletter from "./newsletter";
 import {Helmet} from "react-helmet";
 const FSSAI = (props) => {
@@ -39,7 +39,39 @@ const FSSAI = (props) => {
 		</div>
 
 	</section>
-
+	 	<section class="large-padding-top">
+ 	     <div class="container">
+ 	        <div class="row">
+ 	          <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 m-auto align-center">
+ 	           <header class="crumina-module crumina-heading mb-5">
+ 	            <div class="title-text-wrap">
+ 	            <h2 class="heading-title">Benefits of FSSAI FoSCos Certificate</h2>
+ 	            </div>
+ 	           <div class="heading-decoration"></div>
+ 	         </header>
+					</div>
+				</div>
+			</div>
+	 </section>
+     <div class="wrapper light-wrapper">
+      <div class="container inner">
+        <div class="row gutter-60 gutter-md-30 process-wrapper arrow text-center">
+          <div class="col-md-4">
+             <img class="img-icon" src={safe} alt="safety" /><br/>
+             <div class="heading-decoration"></div>
+            <h5>TRUST OF THE CUSTOMERS.</h5>
+          </div>
+          <div class="col-md-4"> <img class="img-icon" src={home} alt="home" /><br/>
+          <div class="heading-decoration"></div>
+            <h5>PERMIT OF FOOD BUSINESS.</h5>
+          </div>
+          <div class="col-md-4"> <img class="img-icon" src={docu} alt="compliances" /> <br/>
+          <div class="heading-decoration"></div>
+            <h5>USE OF FSSAI LOGO.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
       <section class="large-padding-top">
         <div class="wrapper light-wrapper">
       <div class="container inner">
