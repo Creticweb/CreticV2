@@ -22,6 +22,7 @@ import MSME from "./components/msme";
 import CONTACT from "./components/contact";
 import FSSAI from "./components/fssai";
 import Privacy from "./components/policy";
+import Return from "./components/gstfilling";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
@@ -29,7 +30,7 @@ const schemaMarkup = {
   name:
     "We offers a suite of online services like company registration, trademark filing, income tax filing, GST registration, GST return filing",
   alternateName: "Cretic Solutions offers a suite of online services",
-  url: "https://creticweb.tech/",
+  url: "https://creticweb.com/",
 };
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
               <Route path="/msme" component={MSME} />
               <Route path="/contact" component={CONTACT} />
               <Route path="/fssai" component={FSSAI} />
+              <Route path="/gst-filing" component={Return} />
               <Route path="/privacy" component={Privacy} />
               <Route path="/not-found" component={NotFound} />
               <Redirect to="/not-found" />
