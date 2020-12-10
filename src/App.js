@@ -9,6 +9,7 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 import ReactGa from "react-ga";
 import Navbar from "./components/navbar";
+//import MovingText from 'react-moving-text'
 import Whatsapp from "./components/whatsapp";
 import Footer from "./components/footer";
 //import Register from "./components/register";
@@ -51,6 +52,8 @@ function App() {
       <Router history={history}>
        <Navbar />
         <Whatsapp/>
+        <marquee style={{ color: 'black', fontSize: '17px' }}><span className="covid19">COVID-19 Note :</span> Services will not be disrupted from our side. Please expect delays from government side in case of any registration. </marquee>
+             
           <main>
             <Switch>
               <Route exact path="/" component={Home} />

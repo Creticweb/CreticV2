@@ -1,3 +1,8 @@
+.covid19 {
+  font-weight: bold;
+  color: red;
+}
+
 .lastupdate {
   text-align: right;
   color: red;

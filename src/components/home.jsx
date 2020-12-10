@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from './banner';
 import Service from './service';
 import Register from './register';
-//import Count from './counter';
+
 import High from './high';
 import {Helmet} from "react-helmet";
 import Newsletter from "./newsletter";

@@ -358,6 +358,7 @@ const Menu = (props) => {
         </div>
         {/* /RIGHT MENU */}
       </div>
+    
   );
 }
 
