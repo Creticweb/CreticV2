@@ -11,6 +11,7 @@ const FSSAI = (props) => {
      
     <Helmet>
      <title>FSSAI LICENSE | Cretic Solutions</title>
+     <meta name="keywords" content="FSSAI Registration Online, FSSAI Food License, Food License Online">
     </Helmet>
       <div class="main-content-wrapper">
       	<section class="crumina-stunning-header section-image-bg-blue-dark">
