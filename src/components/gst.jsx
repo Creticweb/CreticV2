@@ -13,7 +13,7 @@ const GST = (props) => {
    <Helmet>
      <title>GST Registration | Cretic Solutions</title>
       <meta name="keywords" content="GST Registration, Enrollment for GST, New GST Registration, GST Portal Access,GST Registration Online, GST Registration Status, GST Registration Fees" />
-      <meta name="description" content="GST Registration -  Know the GST Registration Online Process, eligibility and documents required for GST Registration . Secure GSTIN number with the help of experts on the applicability and compliances under GST for your business and get your business Registered under GST.">
+      <meta name="description" content="GST Registration -  Know the GST Registration Online Process, eligibility and documents required for GST Registration . Secure GSTIN number with the help of experts on the applicability and compliances under GST for your business and get your business Registered under GST."/>
     </Helmet>
       <div class="main-content-wrapper">
       	<section class="crumina-stunning-header section-image-bg-black">
