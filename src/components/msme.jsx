@@ -125,7 +125,7 @@ const MSME = (props) => {
                         <span className="included">Online GST Software</span>
                       </li>
                       <li className="position-item">
-                        <span className="font-weight-bold">3 Months Free GST Filing</span>
+                        <span className="font-weight-bold">1 Months Free GST Filing</span>
                       </li>
                     </ul>
                     <h2 className="rate">₹<span className="pricing-price">799</span></h2>
@@ -148,7 +148,7 @@ const MSME = (props) => {
                         <span className="font-weight-bold">Udyam Registration</span>
                         </li>
                       <li className="position-item">
-                        <span className="font-weight-bold">6 Months Free GST Filing</span>
+                        <span className="font-weight-bold">3 Months Free GST Filing</span>
                       </li>
                       <li className="position-item">
                         <span className="included">Business Bank Account Opening</span>
