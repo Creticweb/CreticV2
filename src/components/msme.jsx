@@ -99,7 +99,7 @@ const MSME = (props) => {
                         <span className="font-weight-bold">-</span>
                       </li>
                     </ul>
-                    <h2 className="rate">₹<span className="pricing-price">79</span></h2>
+                    <h2 className="rate">₹<span className="pricing-price">179</span></h2>
                     <a href="https://rzp.io/l/PzbqNVg" className="crumina-button button--primary button--l">ORDER NOW!</a>
                   </div>
                 </div>
