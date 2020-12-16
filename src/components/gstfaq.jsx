@@ -149,6 +149,9 @@ const GSTFaq = (props) => {
           {/* /CRUMINA HEADING DECORATION  */}
         </header>
         <div className="accordion crumina-module crumina-accordion" id="accordion">
+       <div class="container">
+        <div class="row">
+        <div class="col-sm">
           <div className="card">
             <div className="card-header" id="headingOne">
               <h2 className="mb-0">
@@ -168,6 +171,8 @@ const GSTFaq = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          <div class="col-sm">
           <div className="card">
             <div className="card-header" id="headingTwo">
               <h2 className="mb-0">
@@ -187,6 +192,8 @@ const GSTFaq = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          <div class="col-sm">
           <div className="card">
             <div className="card-header" id="headingThree">
               <h2 className="mb-0">
@@ -206,6 +213,8 @@ const GSTFaq = (props) => {
               </div>
             </div>
           </div>
+          </div>
+          <div class="col-sm">
           <div className="card">
             <div className="card-header" id="headingFour">
               <h2 className="mb-0">
@@ -226,6 +235,9 @@ const GSTFaq = (props) => {
             </div>
           </div>
         </div>
+        </div>
+      </div>
+      </div>
       </div>
       </section>
  
