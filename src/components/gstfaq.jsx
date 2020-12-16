@@ -151,7 +151,7 @@ const GSTFaq = (props) => {
         <div className="accordion crumina-module crumina-accordion" id="accordion">
        <div class="container">
         <div class="row">
-        <div class="col-sm">
+        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 m-auto align-center">
           <div className="card">
             <div className="card-header" id="headingOne">
               <h2 className="mb-0">
@@ -172,7 +172,7 @@ const GSTFaq = (props) => {
             </div>
           </div>
           </div>
-          <div class="col-sm">
+          <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 m-auto align-center">
           <div className="card">
             <div className="card-header" id="headingTwo">
               <h2 className="mb-0">
@@ -193,7 +193,7 @@ const GSTFaq = (props) => {
             </div>
           </div>
           </div>
-          <div class="col-sm">
+          <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 m-auto align-center">
           <div className="card">
             <div className="card-header" id="headingThree">
               <h2 className="mb-0">
@@ -214,7 +214,7 @@ const GSTFaq = (props) => {
             </div>
           </div>
           </div>
-          <div class="col-sm">
+          <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 m-auto align-center">
           <div className="card">
             <div className="card-header" id="headingFour">
               <h2 className="mb-0">
